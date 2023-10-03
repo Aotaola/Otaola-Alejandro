@@ -1,0 +1,34 @@
+/* Reset some default styling */
+html, body {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+h1 {
+    color: black;   
+}
+nav {
+    background-color: royalblue;
+}
+.navbar-li{
+    color: black;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-color: lightsteelblue;
+    justify-content: space-between;
+    
+}
+a.link {
+    padding: 1rem;
+    justify-content: flex-start;
+    font-size: 20px;
+
+}
+
