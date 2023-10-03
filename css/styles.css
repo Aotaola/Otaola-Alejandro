@@ -1,12 +1,28 @@
 /* Reset some default styling */
 html, body {
-    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkslateblue;
     height: 100%;
     width: 100%;
     justify-content: space-evenly;
+    padding: 10rem;
+}
+main {
+    font-size: 20px;
+    font-family: century;
+    width: 50%;
+    height: 50%;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
 }
 h1 {
-    color: black;   
+    margin: 0px;
+    color: blue;   
 }
 nav {
     background-color: royalblue;
@@ -23,12 +39,10 @@ footer {
     width: 100%;
     background-color: lightsteelblue;
     justify-content: space-between;
-    
 }
 a.link {
     padding: 1rem;
     justify-content: flex-start;
     font-size: 20px;
-
 }
 
